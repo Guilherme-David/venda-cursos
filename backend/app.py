@@ -6,7 +6,7 @@ from settings import TIPOS_PERMITIDOS, STATUS_PERMITIDOS
 app = Flask(__name__)
 CORS(app) # o CORS para conectar coma API
 
-DATA_FILE = "items.json" # Arquivo de Dados -> Para a API em formato JSON
+DATA_FILE = "cursos.json" # Arquivo de Dados -> Para a API em formato JSON
 
 # FUNÇÕES AUXILIARES
 def read_items():
@@ -50,7 +50,7 @@ def validate_item(data):
 
 # ROTAS DA API
 # GET/items
-@app.route("/items", methods=["GET"])
+@app.route("/cursos", methods=["GET"])
 def get_items():
     '''
         ROTA GET/items:
@@ -72,7 +72,7 @@ def get_items():
     return jsonify(items)
 
 # POST/items
-@app.route("/items", methods=["POST"])
+@app.route("/cursos", methods=["POST"])
 def create_item():
     '''
         ROTA POST/items:
@@ -100,7 +100,7 @@ def create_item():
     return jsonify(item), 201
 
 # PUT/items
-@app.route("/items/<int:item_id>", methods=["PUT"])
+@app.route("/cursos/<int:item_id>", methods=["PUT"])
 def update_item(item_id):
     '''
         PUT/items:
@@ -125,7 +125,7 @@ def update_item(item_id):
     return jsonify({"error": "Item não encontrado"}), 404
 
 # PATCH/items
-@app.route("/items/<int:item_id>/status", methods=["PATCH"])
+@app.route("/cursos/<int:item_id>/status", methods=["PATCH"])
 def update_status(item_id):
     '''
         PATCH/items:
@@ -151,7 +151,7 @@ def update_status(item_id):
 
 
 # DELETE/items
-@app.route("/items/<int:item_id>", methods=["DELETE"])
+@app.route("/cursos/<int:item_id>", methods=["DELETE"])
 def delete_item(item_id):
     '''
         DELETE/items:
