@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "titulo": "Curso de Python",
+    "descricao": "Aprenda Python do zero ao avançado",
+    "valor": 199.9,
+    "imagem_url": "python1.jpg",
+    "tipo": "curso-online",
+    "status": "ativo"
+  },
+  {
+    "id": 2,
+    "titulo": "HTML e CSS",
+    "descricao": "Não sei não",
+    "valor": 123.21,
+    "tipo": "curso-online",
+    "status": "ativo",
+    "imagem_url": "16d6c9e9-a993-4493-97c8-f8f148fd1bd9.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "React-Dev (Editado)",
+    "descricao": "Reactions Bro",
+    "valor": 123.22,
+    "tipo": "curso-online",
+    "status": "ativo",
+    "imagem_url": "0a34fb99-a209-42c0-a834-e8e6177bda23.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "JavaSpring BOOT",
+    "descricao": "Javazão do Rome",
+    "valor": 233.5,
+    "tipo": "curso-online",
+    "status": "inativo",
+    "imagem_url": "e9cc2ffd-ec04-4fcd-b98e-8a5031287003.jfif"
+  }
+]

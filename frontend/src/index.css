@@ -1,37 +1,128 @@
+@import "tailwindcss";
+
+/* ==============================
+   RESET + NORMALIZAÇÃO
+   ============================== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background: #f5f5f5;
-  margin: 0;
+  min-height: 100vh;
+  font-family: "Poppins", "sans-serif";
+  line-height: 1.5;
+  color: #111827; /* gray-900 */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-.container {
-  padding: 40px;
+/* ==============================
+   ELEMENTOS BÁSICOS
+   ============================== */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 4px;
-}
-
-.card button {
-  margin-top: 10px;
-  padding: 10px;
-  width: 100%;
-  background: #4f46e5;
-  color: white;
+button {
+  font-family: inherit;
+  background: none;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+/* ==============================
+   TIPOGRAFIA
+   ============================== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+p {
+  line-height: 1.6;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* ==============================
+   ACESSIBILIDADE
+   ============================== */
+:focus-visible {
+  outline: 2px solid #2563eb; /* blue-600 */
+  outline-offset: 2px;
+}
+
+/* ==============================
+   SCROLLBAR (webkit)
+   ============================== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6; /* gray-100 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9ca3af; /* gray-400 */
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6b7280; /* gray-500 */
+}
+
+/* ==============================
+   CLASSES UTILITÁRIAS GLOBAIS
+   ============================== */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-slide {
+  animation: slide 20s linear infinite;
 }
