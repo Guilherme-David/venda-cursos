@@ -230,7 +230,7 @@ npm run lint     # Executa o linter
 
 ## Licença
 
-Este projeto está sob a licença ISC.
+Este projeto está sob a licença MIT.
 
 ## Autor
 
