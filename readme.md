@@ -168,7 +168,7 @@ projeto/
 
 - `/` - Home com carrossel de cursos
 - `/cursos` - Lista completa de cursos
-- `/cadastro-cursos` - Formulário de cadastro
+- `/cursos/novo` - Formulário de cadastro
 - `/cursos/editar/:id` - Formulário de edição
 
 ## Validações
