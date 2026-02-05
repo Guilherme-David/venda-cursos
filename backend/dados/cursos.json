@@ -4,18 +4,9 @@
     "titulo": "Curso de Python",
     "descricao": "Aprenda Python do zero ao avançado",
     "valor": 199.9,
-    "imagem_url": "python1.jpg",
-    "tipo": "curso-online",
-    "status": "ativo"
-  },
-  {
-    "id": 2,
-    "titulo": "HTML e CSS",
-    "descricao": "Não sei não",
-    "valor": 123.21,
     "tipo": "curso-online",
     "status": "ativo",
-    "imagem_url": "16d6c9e9-a993-4493-97c8-f8f148fd1bd9.jpg"
+    "imagem_url": "python1.jpg"
   },
   {
     "id": 3,
@@ -34,5 +25,32 @@
     "tipo": "curso-online",
     "status": "inativo",
     "imagem_url": "e9cc2ffd-ec04-4fcd-b98e-8a5031287003.jfif"
+  },
+  {
+    "id": 5,
+    "titulo": "Curso de Arthur com Linux",
+    "descricao": "Curso de LInuxzin",
+    "valor": 2348323,
+    "tipo": "curso-presencial",
+    "status": "ativo",
+    "imagem_url": "2b7fff00-c7db-4625-a190-0cfd5425f0d7.jpeg"
+  },
+  {
+    "id": 6,
+    "titulo": "Flask Curso",
+    "descricao": "Crie um  Webapp com Python",
+    "valor": 2112,
+    "tipo": "curso-presencial",
+    "status": "ativo",
+    "imagem_url": "6fe5b230-4493-44fb-81fd-e48b0e3819fb.png"
+  },
+  {
+    "id": 7,
+    "titulo": "Curso Next.js",
+    "descricao": "Curso Completão",
+    "valor": 12,
+    "tipo": "curso-presencial",
+    "status": "ativo",
+    "imagem_url": "065623a6-ab60-48d1-96b8-47f4beb9ce00.jpeg"
   }
 ]

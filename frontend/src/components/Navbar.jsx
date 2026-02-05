@@ -18,7 +18,7 @@ function Navbar() {
           Cursos
         </Link>
 
-        <Link to="/cadastro-cursos" className="relative font-semibold after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-sky-600 after:transition-all after:duration-300 hover:after:w-full">
+        <Link to="/cursos/novo" className="relative font-semibold after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-sky-600 after:transition-all after:duration-300 hover:after:w-full">
           Cadastrar Cursos
         </Link>
       </nav>

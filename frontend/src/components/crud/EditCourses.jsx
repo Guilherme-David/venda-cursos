@@ -76,7 +76,7 @@ function EditCourse() {
   if (error) return <p className="text-center mt-10 text-red-500">{error}</p>;
 
   return (
-    <div className="bg-slate-900 min-h-screen py-10">
+    <div className="bg-slate-900 min-h-screen pb-10">
       <Navbar />
 
       <form
@@ -144,7 +144,6 @@ function EditCourse() {
         >
           <option value="ativo">Ativo</option>
           <option value="inativo">Inativo</option>
-          <option value="arquivado">Arquivado</option>
         </select>
 
         {/* IMAGEM ATUAL */}

@@ -9,7 +9,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/cadastro-cursos" element={<CreateCourse />} />
+      <Route path="/cursos/novo" element={<CreateCourse />} />
       <Route path="/cursos/editar/:id" element={<EditCourse />} />
       <Route path="/cursos" element={<AllCourses />} />
     </Routes>

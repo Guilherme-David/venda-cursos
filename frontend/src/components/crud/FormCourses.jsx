@@ -39,7 +39,7 @@ function CreateCourse() {
     };
 
     return (
-        <div className="bg-slate-900 min-h-screen py-10">
+        <div className="bg-slate-900 min-h-screen">
             <Navbar />
 
             <form
