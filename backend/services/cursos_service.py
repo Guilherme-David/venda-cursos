@@ -1,4 +1,4 @@
-# services/cursos_service.py
+
 import json
  
 DATA_FILE = "./dados/cursos.json"
