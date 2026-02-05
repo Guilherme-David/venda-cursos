@@ -243,3 +243,17 @@ Para suporte, entre em contato através do repositório do projeto.
 ---
 
 *Se este projeto foi útil para você, considere dar uma estrela no repositório!*
+
+## Prints 
+![alt text](imagens/img1.jpeg)
+![alt text](imagens/img2.jpeg)
+![alt text](imagens/img3.jpeg)
+![alt text](imagens/img4.jpeg)
+![alt text](imagens/img5.jpeg)
+![alt text](imagens/img6.jpeg)
+![alt text](imagens/img7.jpeg)
+![alt text](imagens/img8.jpeg)
+![alt text](imagens/img9.jpeg)
+![alt text](imagens/img10.jpeg)
+![alt text](imagens/img11.jpeg)
+![alt text](imagens/img12.jpeg)
